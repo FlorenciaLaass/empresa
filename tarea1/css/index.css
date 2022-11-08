@@ -1,12 +1,71 @@
+/* reseteo de margen y relleno las etiquetas*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
 body 
 {
     background: rgb(69, 85, 228);
 }
-header{
-            background: white;
-        }
-h1{
-    color:gold;
+
+.header{
+    background: rgb(231, 231, 243);
+    color: rgb(19, 1, 1);
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.margen{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    text-transform: uppercase;
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background: rgb(13, 6, 117);
+    color: white;
+}
+.navbar ul {
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.navbar ul li a:hover {
+    background: white;
+    color:rgb(13, 6, 117);
+}
+
+#portada {
+    width: 70%;
+    background: rgb(141, 132, 132);
+    padding: 1.6em;
+    box-sizing: border-box;
+}
+
+.destacado , .default {
+    background: white;
+    padding: 0.7em;
 }
 .micolor {
     color: blue;
